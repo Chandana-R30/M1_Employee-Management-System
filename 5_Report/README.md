@@ -34,5 +34,6 @@ BENEFITS:
 CONCLUSION: 
 
 This project C solves the issue effectively. The user can update all the required details.This project is user friendly. Using this project the user can keep a record of students and maintain the record in a simple and oraginsed manner.
+The main advantage of this code is it works on both Windows OS and Linux OS .
 
 Code for my project is referred from: https://code-projects.org/
