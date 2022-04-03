@@ -11,7 +11,6 @@ struct EMPLOYEE
 int main()
 {
 	void add();
-	void password();
 	void displayAll();
 	void record();
 	void del();
@@ -89,13 +88,13 @@ void add()
 		fp=fopen("record.dat","ab");
  		printf("\nEnter employee identfication number for record\n");
 		scanf("%d",&s.empID);
-		printf("Enter Name\n");
+		printf("\nEnter Name\n");
 		scanf("%s",s.name);
-		printf("Enter Age\n");
+		printf("\nEnter Age\n");
 		scanf("%d",&s.age);
-		printf("Enter salary\n");
+		printf("\nEnter salary\n");
 		scanf("%d",&s.salary);
-		printf("Enter bonus\n");
+		printf("\nEnter bonus\n");
 		scanf("%d",&s.bonus);
 		s.total=s.salary+s.bonus;
 		fwrite(&s,size,1,fp);
